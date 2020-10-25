@@ -1,10 +1,11 @@
 			$('.third-screen__slider').slick({
   slidesToShow: 2.2,
-  arrows: false,
+  arrows: true,
   rows: 2,
   slidesPerRow: 1,
   infinite: false,
   focusOnSelect: false,
+
   responsive: [
     {
       breakpoint: 768,
@@ -30,7 +31,7 @@
 
 $('.fifth-screen__slider').slick({
   slidesToShow: 3.2,
-  arrows: false,
+  arrows: true,
   infinite: false,
   focusOnSelect: false,
   variableWidth: true,

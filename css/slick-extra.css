@@ -1,9 +1,11 @@
 .slick-slide {
     opacity: 0.4;
     transition: all 1s;
+    outline: none;
 }
 .third-screen__slider {
   width: 100%;
+  position: relative;
    
 }
 .slick-active {
@@ -13,4 +15,26 @@
 
 .fifth-screen__items .slick-slide .slick-active {
 	width: 360px;
-} 
+}
+.slick-next {
+	right: 0;
+	background: url(../img/BTN_Right_Arrow.png) 0 0 no-repeat;
+	font-size: 0;
+}
+.slick-prev {
+	left: 0;
+	font-size: 0;
+	background: url(../img/BTN_left_Arrow.png) 0 0 no-repeat;
+}
+.slick-arrow {
+	position: absolute;
+	top: 42%;
+	z-index: 99;
+	width: 68px;
+	height: 68px;
+	border: 0;
+	outline: none;
+}
+.slick-disabled {
+	display: none;
+}
