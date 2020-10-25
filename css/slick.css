@@ -1,0 +1,15 @@
+.third-screen__item {
+    opacity: 0.4;
+    transition: all 1s;
+}
+.third-screen__slider {
+  width: 100%;
+   
+}
+.third-screen__item .slick-center {
+    opacity: 1;
+    transition: all 1s;
+}
+.slick-slide {
+    padding: 20px 20px;
+} 

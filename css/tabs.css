@@ -1,0 +1,44 @@
+* {box-sizing: border-box}
+
+/* Style the tab */
+.fourth-screen {
+  float: right;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.fourth-screen button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.fourth-screen button:hover {
+  background-color: gray;
+}
+
+/* Create an active/current "tab button" class */
+.fourth-screen button.active {
+  background-color: gray;
+}
+
+/* Style the tab content */
+.fourth-screen__tabcontent {
+  float: left;
+  padding: 0px 12px;
+  background: gray;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+}

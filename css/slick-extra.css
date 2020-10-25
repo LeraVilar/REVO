@@ -1,0 +1,16 @@
+.slick-slide {
+    opacity: 0.4;
+    transition: all 1s;
+}
+.third-screen__slider {
+  width: 100%;
+   
+}
+.slick-active {
+    opacity: 1;
+    transition: all 1s;
+}
+
+.fifth-screen__items .slick-slide .slick-active {
+	width: 360px;
+} 
