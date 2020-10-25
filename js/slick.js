@@ -5,7 +5,6 @@
   slidesPerRow: 1,
   infinite: false,
   focusOnSelect: false,
-
   responsive: [
     {
       breakpoint: 768,
